@@ -1,0 +1,6 @@
+#cartelera {
+    padding: 1rem 0;
+    grid-template-columns: 2.2fr;
+    grid-template-rows: 0.3fr 2.8fr;
+    gap: 0px 0px;
+}
