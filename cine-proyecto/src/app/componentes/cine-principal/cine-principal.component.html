@@ -1,6 +1,5 @@
 <div id="cartelera">
-
-    <div class="menu">
+    <div class="pelis">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +20,11 @@
                 </ul>
             </div>
         </nav>
+        <router-outlet></router-outlet>
     </div>
 
-
-    <router-outlet></router-outlet>
+    <div class="cines">
+        <app-lista-cines></app-lista-cines>
+    </div>
 
 </div>

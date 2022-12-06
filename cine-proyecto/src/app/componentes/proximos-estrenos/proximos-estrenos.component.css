@@ -1,9 +1,15 @@
 #cartas {
-    display: inline-grid;
-    grid-template-columns: repeat(5, auto);
-    grid-template-rows: auto;
-    grid-row-gap: 22px;
-    grid-column-gap: 9px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     opacity: 1;
     background-color: brown;
+    justify-content: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 19rem;
 }

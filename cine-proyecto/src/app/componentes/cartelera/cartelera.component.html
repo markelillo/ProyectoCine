@@ -1,5 +1,5 @@
 <div id="cartas">
-    <div *ngFor="let peli of peliculas" class="card" style="width: 19rem;">
+    <div *ngFor="let peli of peliculas" class="card">
         <img class="card-img-top" src="{{peli.poster}}" alt="Card image cap" height="400px">
         <div class="card-body">
             <h5 class="card-title">{{peli.nombre}}</h5>
@@ -8,7 +8,6 @@
                 content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
             <button mat-raised-button color="accent">Accent</button>
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
         </div>
     </div>
 </div>

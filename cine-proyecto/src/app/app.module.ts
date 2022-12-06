@@ -12,6 +12,9 @@ import { CarteleraComponent } from './componentes/cartelera/cartelera.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { ListaCinesComponent } from './lista-cines/lista-cines.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,8 @@ import { MatIconModule } from '@angular/material/icon';
     CabeceraComponent,
     CinePrincipalComponent,
     ProximosEstrenosComponent,
-    CarteleraComponent
+    CarteleraComponent,
+    ListaCinesComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,9 @@ import { MatIconModule } from '@angular/material/icon';
     NgOptimizedImage,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
